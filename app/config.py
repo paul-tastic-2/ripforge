@@ -965,7 +965,7 @@ def check_for_updates() -> dict:
     try:
         # Try GitHub releases API first
         r = requests.get(
-            'https://api.github.com/repos/paul-tastic/ripforge/releases/latest',
+            'https://api.github.com/repos/paul-tastic-2/ripforge/releases/latest',
             timeout=5,
             headers={'Accept': 'application/vnd.github.v3+json'}
         )

@@ -472,7 +472,7 @@ def send_weekly_recap(recipients: list, test_mode: bool = False) -> bool:
 
     <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid #333; text-align: center;">
         <p style="color: #666; font-size: 11px; margin: 0;">
-            Media ripped by <a href="https://github.com/paul-tastic/ripforge" style="color: #e5a00d; text-decoration: none;">RipForge</a>
+            Media ripped by <a href="https://github.com/paul-tastic-2/ripforge" style="color: #e5a00d; text-decoration: none;">RipForge</a>
         </p>
         <p style="color: #555; font-size: 10px; margin: 8px 0 0; font-style: italic;">
             To unsubscribe, just text Paul since you know him
@@ -492,7 +492,7 @@ def send_weekly_recap(recipients: list, test_mode: bool = False) -> bool:
     <p style="color: #fff; text-align: center; padding: 40px 0;">No new titles this week</p>
     <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid #333; text-align: center;">
         <p style="color: #666; font-size: 11px; margin: 0;">
-            Media ripped by <a href="https://github.com/paul-tastic/ripforge" style="color: #e5a00d; text-decoration: none;">RipForge</a>
+            Media ripped by <a href="https://github.com/paul-tastic-2/ripforge" style="color: #e5a00d; text-decoration: none;">RipForge</a>
         </p>
         <p style="color: #555; font-size: 10px; margin: 8px 0 0; font-style: italic;">
             To unsubscribe, just text Paul since you know him

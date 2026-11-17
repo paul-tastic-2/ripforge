@@ -12,7 +12,7 @@ Thanks for your interest in contributing to RipForge!
 ## Development Setup
 
 ```bash
-git clone https://github.com/paul-tastic/ripforge.git
+git clone https://github.com/paul-tastic-2/ripforge.git
 cd ripforge
 python3 -m venv venv
 source venv/bin/activate

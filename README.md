@@ -120,7 +120,7 @@ This is enabled by default (`backup_fallback: true`) and handles most problemati
 
 ```bash
 # Clone the repository
-git clone https://github.com/paul-tastic/ripforge.git
+git clone https://github.com/paul-tastic-2/ripforge.git
 cd ripforge
 
 # Run setup script
