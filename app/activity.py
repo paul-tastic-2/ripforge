@@ -662,8 +662,11 @@ def fetch_metadata_from_radarr(title: str, year: int = None) -> Dict:
 
     try:
         cfg = config.load_config()
-        radarr_url = cfg.get('radarr', {}).get('url', 'http://localhost:7878')
-        radarr_key = cfg.get('radarr', {}).get('api_key', '***REMOVED***')
+        radarr_cfg = cfg.get('integrations', {}).get('radarr', {})
+        radarr_url = radarr_cfg.get('url', 'http://localhost:7878')
+        radarr_key = radarr_cfg.get('api_key', '')
+        if not radarr_key:
+            return result
 
         # Parse year from title if present (e.g., "Footloose (1984)")
         year_match = re.search(r'\((\d{4})\)$', title)

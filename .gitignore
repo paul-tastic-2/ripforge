@@ -32,3 +32,6 @@ dist/
 build/
 *.egg-info/
 .coverage
+
+# Local server notes (credentials); never commit
+servers.md
